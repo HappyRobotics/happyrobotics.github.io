@@ -1,11 +1,18 @@
 body {
-    background-color:#000000
+	background-color: #FFFFFF;
     }
 
 #header {
-    background-color:#0055CC
+	border-width: 2px;
+	border-style: solid;
+	border-color: #C0C0C0;
+   background-color: #F0FFF0
+}
+
+#happyRoboticsHeading {
+	padding: 5px;
 }
 
 p {
-    color:#FFF
+    color: #FFF
 }
