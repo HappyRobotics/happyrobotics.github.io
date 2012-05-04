@@ -1,18 +1,36 @@
 body {
 	background-color: #FFFFFF;
-    }
+}
+    
+#body {
+	background-color: #F0FFF0;
+	border-width: 2px;
+	border-style: none;
+	border-color: #C0C0C0;
+	width: 800px;
+	margin: 0 auto;
+	
+	
+}
 
 #header {
 	border-width: 2px;
-	border-style: solid;
+	border-style: none;
 	border-color: #C0C0C0;
-   background-color: #F0FFF0
+  <!-- background-color: #F0FFF0; -->
+   width: 800px;
 }
 
 #happyRoboticsHeading {
 	padding: 5px;
 }
 
+ul {
+}
+
+li {
+}
+
 p {
-    color: #FFF
+    color: #000000;
 }
