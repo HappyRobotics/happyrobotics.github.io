@@ -21,15 +21,15 @@
     
     </div> <!-- End id="header" -->
     <div id="body" align="center">
-<!--    	<img src="images/pocketBooksPanel.png" width="800" height="500" alt=""> -->
+    	<img src="images/pocketBooksPanel.png" name="slide" width="800" height="500" alt=""> 
 <script>
 <!--
 //variable that will increment through the images
 var step=1
 function slideit(){
 	//if browser does not support the image object, exit.
-	if (!document.images)
-		return
+//	if (!document.images)
+//		return
 	document.images.slide.src=eval("image"+step+".src")
 	if (step<3)
 	step++
