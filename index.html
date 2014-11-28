@@ -24,26 +24,30 @@
     </header> <!-- End id="header" -->
     <div id="body" align="center">
     	<img src="images/pocketBooksPanel.png" name="slide" width="800" height="500" alt=""> 
-<script>
-<!--
-//variable that will increment through the images
-var step=1
-function slideit(){
-	//if browser does not support the image object, exit.
-//	if (!document.images)
-//		return
-	document.images.slide.src=eval("image"+step+".src")
-	if (step<2)
-	step++
-	else
+	<script>
+	  <!--
+	      //variable that will increment through the images
+	      var step=1
+
+	      function slideit(){
+	      //if browser does not support the image object, exit.
+	      //	if (!document.images)
+	      //		return
+	      document.images.slide.src=eval("image"+step+".src")
+	      if (step<2)
+	      step++
+	      else
 		step=1
 		//call function "slideit()" every 2.5 seconds
 		setTimeout("slideit()",2500)
-	}
+		}
 	slideit()
 	//-->
 	</script>
     </div>
+<footer>
+  <h1> Rights reserved </h1>
+</footer>
 </body>
 </html>
 
